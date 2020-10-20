@@ -1,0 +1,172 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-size: 20px;
+}
+li {
+  list-style: none;
+  margin-right: 25px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  background-color: #5cb8ff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.titular {
+  text-align: center;
+  margin-top: 200px;
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+header {
+  background-image: url("/img/fondo.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 1260px;
+  width: 90%;
+  margin: auto;
+}
+
+/* Sobre mi */
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+.yo {
+  border-radius: 50%;
+}
+.sobremi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.parrafo-boton {
+  width: 42%;
+}
+.parrafo-boton p {
+  font-size: 18px;
+}
+.parrafo-boton a {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Servicios */
+.contenedor-servicio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.servicio {
+  width: 25%;
+  padding: 38px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: white;
+  -webkit-box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.violeta {
+  background-color: #5055df;
+}
+.celeste {
+  background-color: #40a8fa;
+}
+.servicio h4 {
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+.servicio img {
+  float: right;
+}
+.servicio p {
+  font-size: 18px;
+  height: 200px;
+}
+span {
+  font-size: 80px;
+  color: blue;
+}
+.owl-nav {
+  text-align: center;
+}
+.porque {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.porque h4 {
+  margin: 0;
+  font-size: 20px;
+}
+.porque p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.porque2 {
+  width: 28%;
+}
+.blog {
+  background-color: #f9fafc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.publicaciones {
+  display: flex;
+  justify-content: space-around;
+}
+.publicacion {
+  width: 30%;
+  box-shadow: 1px 1px 14px #ccc;
+  padding-bottom: 20px;
+}
+.blog img {
+  width: 100%;
+}
+.blog h4 {
+  font-size: 23px;
+  margin: 0;
+  padding: 20px;
+}
+.blog p {
+  color: #5a6169;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 10px 20px 20px;
+  margin: 0;
+}
+.blog a {
+  display: inline-block;
+  margin-left: 20px;
+}
+.publicacion2 img {
+  height: 245px;
+}
+.primer-parrafo {
+  padding: 0 20px 20px !important;
+}
