@@ -195,3 +195,83 @@ span {
   top: 85%;
   right: 1%;
 }
+.iconmenu {
+  display: none;
+}
+@media (max-width: 768px) {
+  /* Se va a aplicar cunado el maximo de ANCHO
+     sea de 480px
+  */
+  header {
+    height: 50vh;
+  }
+  nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #5cb8ff;
+    width: 100%;
+    display: none;
+  }
+  .menu li {
+    display: block;
+  }
+  .iconmenu {
+    display: block;
+    width: 25px;
+  }
+  h1 {
+    font-size: 49px;
+  }
+  h2 {
+    font-size: 19px;
+  }
+  .titular {
+    margin-top: 40px;
+  }
+
+  .sobremi {
+    flex-direction: column;
+  }
+  .yo {
+    border-radius: 0;
+  }
+  .parrafo-boton {
+    width: 90%;
+    text-align: center;
+  }
+  .contenedor-servicio {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contenedor-servicio .servicio {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .carrusel {
+    display: none;
+  }
+  h3 {
+    font-size: 46px;
+  }
+  .porque {
+    flex-direction: column;
+    margin: auto;
+  }
+  .porque2 {
+    width: 85%;
+    margin: auto;
+  }
+  .sobremi img {
+    width: 90%;
+  }
+  .publicaciones {
+    flex-direction: column;
+  }
+  .publicacion {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+}
