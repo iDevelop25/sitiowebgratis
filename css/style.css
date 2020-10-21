@@ -170,10 +170,11 @@ span {
 .primer-parrafo {
   padding: 0 20px 20px !important;
 }
-queesperas {
+.queesperas {
   background: linear-gradient(rgba(84, 93, 220, 0.94), rgba(96, 171, 245, 0.9));
   text-align: center;
   padding: 50px 0 50px 0;
+  width: 100%;
 }
 .queesperas h3 {
   font-size: 23px;
@@ -187,9 +188,10 @@ queesperas {
 .queesperas a:hover {
   color: #5a6169;
   transition: 1s;
-  transform: scale(1.1);
-  display: inline-block;
 }
-.whatsapp {
+.ws a {
   background: none;
+  position: fixed;
+  top: 85%;
+  right: 1%;
 }
